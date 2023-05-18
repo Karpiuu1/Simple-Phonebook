@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\PhoneBookApp\\PhoneBookApp.csproj": {}
+    "D:\\Repos\\Simple-Phonebook\\PhoneBookApp.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\PhoneBookApp\\PhoneBookApp.csproj": {
+    "D:\\Repos\\Simple-Phonebook\\PhoneBookApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\PhoneBookApp\\PhoneBookApp.csproj",
+        "projectUniqueName": "D:\\Repos\\Simple-Phonebook\\PhoneBookApp.csproj",
         "projectName": "PhoneBookApp",
-        "projectPath": "D:\\Repos\\PhoneBookApp\\PhoneBookApp.csproj",
+        "projectPath": "D:\\Repos\\Simple-Phonebook\\PhoneBookApp.csproj",
         "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\PhoneBookApp\\obj\\",
+        "outputPath": "D:\\Repos\\Simple-Phonebook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
