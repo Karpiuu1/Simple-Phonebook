@@ -1,0 +1,15 @@
+D:\Repos\Simple-Phonebook\bin\Debug\net6.0\PhoneBookApp.exe
+D:\Repos\Simple-Phonebook\bin\Debug\net6.0\PhoneBookApp.deps.json
+D:\Repos\Simple-Phonebook\bin\Debug\net6.0\PhoneBookApp.runtimeconfig.json
+D:\Repos\Simple-Phonebook\bin\Debug\net6.0\PhoneBookApp.dll
+D:\Repos\Simple-Phonebook\bin\Debug\net6.0\PhoneBookApp.pdb
+D:\Repos\Simple-Phonebook\obj\Debug\net6.0\PhoneBookApp.csproj.AssemblyReference.cache
+D:\Repos\Simple-Phonebook\obj\Debug\net6.0\PhoneBookApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Simple-Phonebook\obj\Debug\net6.0\PhoneBookApp.AssemblyInfoInputs.cache
+D:\Repos\Simple-Phonebook\obj\Debug\net6.0\PhoneBookApp.AssemblyInfo.cs
+D:\Repos\Simple-Phonebook\obj\Debug\net6.0\PhoneBookApp.csproj.CoreCompileInputs.cache
+D:\Repos\Simple-Phonebook\obj\Debug\net6.0\PhoneBookApp.dll
+D:\Repos\Simple-Phonebook\obj\Debug\net6.0\refint\PhoneBookApp.dll
+D:\Repos\Simple-Phonebook\obj\Debug\net6.0\PhoneBookApp.pdb
+D:\Repos\Simple-Phonebook\obj\Debug\net6.0\PhoneBookApp.genruntimeconfig.cache
+D:\Repos\Simple-Phonebook\obj\Debug\net6.0\ref\PhoneBookApp.dll
