@@ -12,35 +12,53 @@ namespace PhoneBookApp
             Console.WriteLine("2. Display contact by number");
             Console.WriteLine("3. Display all contacts");
             Console.WriteLine("4. Search contacts");
+            Console.WriteLine("5. To exit program type x");
 
             var userInput = Console.ReadLine();
 
             var phoneBook = new PhoneBook();
 
-            switch (userInput)
+            while (true)
             {
-                case "1":
+                switch (userInput)
+                {
+                    case "1":
+                        Console.WriteLine("Insert number");
+                        var number = Console.ReadLine();
+                        Console.WriteLine("Insert name");
+                        var name = Console.ReadLine();
+                        var newContact = new Contact(name, number);
+                        phoneBook.AddContact(newContact);
+                        break;
 
-                    Console.WriteLine("Insert number");
-                    var number = Console.ReadLine();
-                    Console.WriteLine("Insert name");
-                    var name = Console.ReadLine();
+                    case "2":
+                        Console.WriteLine("Insert number");
+                        var numberToSearch = Console.ReadLine();
+                        phoneBook.DisplayContact(numberToSearch);
+                        break;
 
-                    var newContact = new Contact(name, number);
-            
-                    phoneBook.AddContact(newContact);
+                    case "3":
+                        phoneBook.DisplayAllContacts();
+                        break;
 
-                    break;
-                case "2":
-                    break;
-                case "3":
-                    break;
-                case "4":
-                    break;
-                default:
-                    Console.WriteLine("Invalid operation");
-                    break;
+                    case "4":
+                        Console.WriteLine("Insert search phrase");
+                        var searchPhrase = Console.ReadLine();
+                        phoneBook.DisplayMatchingContact(searchPhrase);
+                        break;
+
+                    case "x":
+                        return;
+
+                    default:
+                        Console.WriteLine("Invalid operation");
+                        break;
+                }
+                Console.WriteLine("Select operation");
+                userInput = Console.ReadLine();
             }
+
+           
         }
     }
 }

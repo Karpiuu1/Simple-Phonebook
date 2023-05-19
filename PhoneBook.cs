@@ -17,7 +17,7 @@ namespace PhoneBookApp
 
         private void DisplayContactDetails(Contact contact)
         {
-            Console.WriteLine($"Contact: {contact.Name},{contact.Number}");
+            Console.WriteLine($"Contact: {contact.Name}, {contact.Number}");
         }
         private void DisplayContactDetails(List<Contact> contacts)
         {
